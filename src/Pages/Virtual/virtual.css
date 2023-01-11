@@ -1,0 +1,20 @@
+.left-v>:first-child{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.left-v>:nth-child(2){
+    width: 20rem;
+    font-size: 1.6rem
+}
+.left-v>:nth-child(3){
+    font-size: 1.6rem;
+    font-weight:bold;
+}
+.left-v>img{
+    left: -18px;
+    bottom: 3rem;
+    position: absolute;
+}
+.w-30{
+    width: 30rem;
+}

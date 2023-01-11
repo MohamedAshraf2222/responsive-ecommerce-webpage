@@ -1,0 +1,70 @@
+.heading-p>:last-child{
+    font-size: 2em;
+    font-weight: bold;
+}
+.heading-p>img{
+    width: 8rem;
+    position: absolute;
+    left: 30%;
+    top: -4rem;
+}
+.products{
+    width: 90%;
+    grid-template-columns: 25% auto;
+
+}
+.products>ul{
+    font-size: 1.3rem;
+}
+.products>ul li:hover{
+    color: var(--pink);
+    cursor: pointer;
+}
+
+.name>:first-child{
+    font-size: 1.4rem;
+}
+.name>:nth-child(2){
+    font-size: 0.7rem;
+}
+.product>:nth-child(2){
+    font-weight: bold;
+    font-size: 2rem;
+}
+.product>:last-child{
+ font-size: 0.6rem;
+ border: 1px solid var(--black);
+ padding: 5px 10px;
+ border-radius: 15px;
+ width: max-content;
+
+}
+.product{
+    padding: 1rem;
+    background: white;
+}
+.img-p{
+    transform: rotate(-20deg);
+    position: absolute;
+    height: 100%;
+    /* width: 6rem; */
+    top: 3rem;
+    
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    height: 25rem;
+    overflow-y: scroll;
+    grid-gap: 2rem;
+
+}
+.s-product{
+    position: relative;
+    width: 14rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    height: max-content;
+    /* padding: 10px; */
+    /* box-sizing: content-box; */
+}

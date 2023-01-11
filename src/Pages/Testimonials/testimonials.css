@@ -1,0 +1,55 @@
+.grid-monials{
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+.text-monials{
+    font-size: 2rem;
+}
+.img-monials{
+width: 25rem;
+justify-self: center;
+}
+.text-monials-sm{
+    font-size: 0.8rem;
+}
+.swiper-monials{
+    width: 100%;
+    position: static;
+    /* padding: 2rem; */
+    /* height: 20rem;    */
+    /* position: unset !important; */
+}
+/* .swiper-initialized{
+    padding:  2rem;
+} */
+.mon .swiper{
+    padding: 2rem;
+}
+.swiper-slide-monials{
+    padding: 2rem !important;
+    background-color: white;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+.swiper-slide-monials>img{
+    position: absolute;
+    top: -1.5rem;
+    left: 45%;
+    width: 3rem;
+}
+.swiper-slide-monials>hr{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(198, 198, 198);
+}
+.swiper-slide-monials>:nth-child(2){
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    color:var(--black)
+    }

@@ -1,0 +1,66 @@
+.grid-cols{
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.middle-section{
+
+}
+.left>:first-child{
+    line-height: 2.25rem;
+}
+.middle-section>img{
+    width: 30rem;
+    bottom: 0%;
+}
+.font-large{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.blue-circle{
+    width: 30rem;
+    height: 30rem;
+    background: linear-gradient(135.74deg,#0bb5ff 14.09%,#6dd3fe 83.81% );
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+}
+.card{
+    position: absolute;
+    bottom: 25%;
+    right: 2%;
+}
+.card>svg{
+    box-sizing: content-box;
+    align-items: center;
+    background: white;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    border: 6px solid var(--black);
+    border-radius: 50%;
+}
+.signup{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    box-shadow: var(--shadow1);
+}
+.signup>:first-child{
+width: 6rem;
+display: block;
+}
+.signup>:nth-child(2){
+    border-radius: 50%;
+    border: 1px solid skyblue;
+    display: flex;
+    padding: 10px;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}

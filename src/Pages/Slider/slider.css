@@ -1,0 +1,48 @@
+.swiper-slider{
+    width: 70%;
+    height: 12rem;
+    position: unset !important;
+}
+.swiper-slide-slider{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.swiper .swiper-button-prev{
+    left: 6rem;
+    color: black;
+}
+.swiper .swiper-button-next{
+    right: 6rem;
+    color: black;
+}
+.name>:first-child{
+    font-size: 1.4rem;
+}
+.name>:nth-child(2){
+    font-size: 0.7rem;
+}
+.left-side>:nth-child(2){
+    font-weight: bold;
+    font-size: 2rem;
+}
+.left-side>:last-child{
+ font-size: 0.6rem;
+ border: 1px solid var(--black);
+ padding: 5px 10px;
+ border-radius: 15px;
+ width: max-content;
+
+}
+.img-p{
+    transform: rotate(-20deg);
+    position: absolute;
+    height: 100%;
+    bottom: -20%;
+    right: 10px;
+    /* width: 80px; */
+
+}
