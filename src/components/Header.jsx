@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import logo from '../assets/logo.png'
 import { CgShoppingCart } from "react-icons/cg";
 import { GoThreeBars } from "react-icons/go";
-import { queries } from '@testing-library/react';
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false)
     const toggleMenu = () => {

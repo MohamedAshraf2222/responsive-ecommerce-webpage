@@ -2,8 +2,8 @@ import React from 'react'
 import './virtual.css'
 import shade from "../../assets/shade.png";
 import left from "../../assets/before.png";
-import right from "../../assets/after.png";
 import ReactCompareImage from 'react-compare-image';
+import right from "../../assets/after.png";
 const Virtual = () => {
     return (
         <>
